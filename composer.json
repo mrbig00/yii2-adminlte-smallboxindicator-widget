@@ -1,0 +1,28 @@
+{
+    "name": "mrbig00/yii2-adminlte-smallboxindicator-widget",
+    "description": "The small box indicator widget from AdminLTE3 for Yii2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zoltan Szanto",
+            "email": "mrbig00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mrbig00\\AdminLte3\\Widgets\\": [
+                "./src"
+            ]
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "repositories": {
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    }
+}
